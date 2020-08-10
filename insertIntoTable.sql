@@ -1,8 +1,8 @@
 INSERT  INTO employee 
-        VALUES('Riyaz', 12345 , 900009000);
+        VALUES('Riyaz', 12345 , 900009000, 'Dev');
 
-INSERT  INTO employee (name, id, phoneNo)
-        VALUES('Some A', 11111, 911119111);
+INSERT  INTO employee (name, id, phoneNo, role)
+        VALUES('Some A', 11111, 911119111, 'Dev');
 
-INSERT  INTO employee (id, phoneNo, name)
-        VALUES(2222, 922229222, 'Some B');
+INSERT  INTO employee (id, role, phoneNo, name)
+        VALUES(2222,'Manager', 922229222, 'Some B');
