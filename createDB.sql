@@ -7,5 +7,5 @@ CREATE TABLE employee(
 
 create table company(
     role VARCHAR(50),
-    package point
+    package float
 )
