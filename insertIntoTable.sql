@@ -1,6 +1,9 @@
 INSERT  INTO employee 
         VALUES('Riyaz', 12345 , 900009000, 'Dev');
 
+INSERT  INTO employee
+        VALUES('Riyaz', 12346 , 900009001, 'OTP');
+
 INSERT  INTO employee (name, id, phoneNo, role)
         VALUES('Some A', 11111, 911119111, 'Dev');
 
