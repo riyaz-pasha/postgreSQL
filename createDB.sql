@@ -4,3 +4,8 @@ CREATE TABLE employee(
     phoneNo int,
     role VARCHAR(50)
 );
+
+create table company(
+    role VARCHAR(50),
+    package point
+)
